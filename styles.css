@@ -1,0 +1,45 @@
+h1{
+    background-image:linear-gradient(to right,rgba(255,0,0,0),rgba(255,0,0,1));
+    color: rgb(142, 36, 230);
+    text-align: center;
+}
+
+.container{
+    display:grid ;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 70px;
+}
+
+.chef-gif{
+    height:auto ;
+    width: 400px;
+}
+.chef-pic{
+    height: 300px;
+    width: 400px;
+    position:absolute ;
+    background: white ;
+}
+
+.chef-pic:hover{
+    opacity: 0;
+}
+
+.container .text-alongside-img {
+    font-weight: bold;
+    font-size : x-large ;
+}
+
+.recipes-links-list{
+    font-size: large;
+    line-height: 50px;
+}
+
+a:visited{
+    color: green ;
+}
+
+a:hover{
+    color: hotpink ;
+}
